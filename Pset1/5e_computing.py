@@ -11,7 +11,9 @@ data_folder = "facebook100txt"
 edge_list_files = [f for f in glob.glob(os.path.join(data_folder, "*.txt")) if not f.endswith("_attr.txt")]
 
 def compute_metrics(file):
-    """Compute exact diameter and mean geodesic distance"""
+    """Compute diameter and mean geodesic distance for FB100 nets using Networkx and Networkit."""
+
+
     network_name = os.path.basename(file).replace(".txt", "")
 
     # Load the graph using NetworkX
