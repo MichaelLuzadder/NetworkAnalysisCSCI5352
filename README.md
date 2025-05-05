@@ -13,4 +13,4 @@ code for problem set 3 committed
 code for problemset 4 committed 
 
 ## 5/4/24
-code for flywore connectome project committed 
+code for flywire connectome project committed 
